@@ -19,3 +19,11 @@ arr=array('i',[1,2,3,4,5])
 
 # for jkl in range(0,5):
 #     print(jkl,arr[jkl])
+
+#reversing an array using .reverse() method
+# arr.reverse()
+# print(arr)
+
+#reversing an array using slicing
+rev=arr[::-1]
+print(rev)
