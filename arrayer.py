@@ -1,5 +1,5 @@
 from array import *
-arr=array('i',[1,2,3,4,5])
+# arr=array('i',[1,2,3,4,5])
 # print(type(arr))
 # print(arr[0])
 # print(arr[2])
@@ -25,5 +25,27 @@ arr=array('i',[1,2,3,4,5])
 # print(arr)
 
 #reversing an array using slicing
-rev=arr[::-1]
-print(rev)
+# rev=arr[::-1]
+# print(rev)
+
+#.append()
+# arr.append(10)
+# print(arr)
+
+#.remove()
+# arr.remove(2)
+# print(arr)
+
+# arr[2]=2
+# print(arr)
+# arr.remove(2)
+# print(arr)
+
+#array created by user inputs
+arr=array('i',[])
+x=int(input('enter array size: '))
+print('enter %d elements' %x)
+for i in range(x):
+    n=int(input())
+    arr.append(n)
+print(arr)
