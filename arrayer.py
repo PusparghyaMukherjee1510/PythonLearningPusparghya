@@ -17,3 +17,5 @@ arr=array('i',[1,2,3,4,5])
 #for pnt in range(5):
     #print(arr[pnt],end=" ")
 
+# for jkl in range(0,5):
+#     print(jkl,arr[jkl])
