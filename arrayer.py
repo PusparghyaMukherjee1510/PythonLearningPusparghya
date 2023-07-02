@@ -16,3 +16,4 @@ arr=array('i',[1,2,3,4,5])
 #pointer for loop 
 #for pnt in range(5):
     #print(arr[pnt],end=" ")
+
