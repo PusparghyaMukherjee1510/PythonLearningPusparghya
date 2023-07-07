@@ -21,3 +21,16 @@
 #         tot+=i
 #     print("sum is", tot)
 # add(10,20,30,40)
+
+#print the address of argument
+# def add(a,v):
+#     a=5
+#     v=3
+#     print(id(a),id(v))
+#     tor=a+v
+#     print("sum is",tor)
+# x=10
+# y=4
+# add(x,y)
+# print(id(x),id(y))
+# print('add is',x+y)
