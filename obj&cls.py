@@ -54,3 +54,38 @@
 # Toy=Car()
 # Car.getSpeed(Toy,"Toyota",78)
 
+#Inheritance
+class Car():
+    def __init__(self,y,s):
+        self.year=y
+        self.speed=s
+    def getYear(self):
+        print("year is : ",self.year)
+    def getSpeed(self):
+        print("max speed : ",self.speed)
+
+class Sedan(Car):
+    def accLert(self):
+        print(self.getSpeed())
+
+class SUV(Car):
+    def accLert(self):
+        print(self.getSpeed())
+
+BMW=Car(2013,155)
+TATA=Sedan(2012,132)
+Toyota=SUV(2006,110)
+
+BMW.getSpeed()
+BMW.getYear()
+TATA.getSpeed()
+TATA.getYear()
+Toyota.getSpeed()
+Toyota.getYear()
+
+#Encapsulation
+#Polymorphism
+onbl=[Sedan("Camara",120),SUV("Mahindra",123)]
+for i in onbl:
+    print(i.year+ ":",end=" ")
+    i.accLert()
