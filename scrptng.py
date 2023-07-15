@@ -53,3 +53,16 @@
 # smtpobj.login("pusparghyamukherjee10@gmail.com",'ARYANREDONTIGER45610')
 
 
+#create file in folder
+# import os
+# from os import path
+
+# def create_file(dest):
+#     if not(path.isfile(dest)):
+#         f=open(dest,'w')
+#         f.write("Updating Python")
+#         f.close()
+# test="C:\\Users\\USER\\Desktop\\TxTs\\pample.txt"
+# create_file(test)
+
+# print("File Created Once Again")
