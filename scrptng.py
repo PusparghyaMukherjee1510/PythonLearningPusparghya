@@ -66,3 +66,15 @@
 # create_file(test)
 
 # print("File Created Once Again")
+
+#sending mail
+
+# import smtplib
+
+# smtpojj=smtplib.SMTP('smtp.gmail.com', 587)
+# smtpojj.ehlo()
+# smtpojj.starttls()
+# smtpojj.login('pusparghyamukherjee10@gmail.com','ARYANREDONTIGER45610')
+# smtpojj.sendmail('pusparghyamukherjee1994@gmail.com','pusparghyamukherjee10@gmail.com', 'Subject: SMTP check from Python \n Test mail send using Python')
+# smtpojj.quit()
+
