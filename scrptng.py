@@ -78,3 +78,36 @@
 # smtpojj.sendmail('pusparghyamukherjee1994@gmail.com','pusparghyamukherjee10@gmail.com', 'Subject: SMTP check from Python \n Test mail send using Python')
 # smtpojj.quit()
 
+# def funcl(*args):
+#     for i in args:
+#         print(i)
+
+# funcl(1,3,5,6,'ghjk',8.96)
+
+# def fubn(*args,**kwargs):
+#     for i in kwargs.items():
+#         print(i)
+
+# fubn(a=10,b=89,c=53)
+
+# def func1():
+#     x=10
+#     def func2(x):
+#         return x+1
+#     return func2(x)
+
+# print(func1())
+
+#create class during runtime
+# B=type("BaseClass",(object,),{})
+# C1=type("C1",(B,),{'val':50})
+# C2=type("C2",(B,),{'val':100})
+
+# def classCreator(bool):
+#     if bool:
+#        return C1()
+#     else:
+#         return C2()
+
+# print(classCreator((True).val))
+# print(classCreator((False).val))
