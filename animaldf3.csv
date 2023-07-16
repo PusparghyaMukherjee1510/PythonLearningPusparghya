@@ -1,0 +1,11 @@
+,animal,age,visits,priority
+a,cat,2.5,1,yes
+b,cat,3.0,1,yes
+c,dog,2.0,2,yes
+d,dog,3.3,2,yes
+e,tiger,2.0,3,no
+f,tiger,9.0,4,no
+g,dog,5.4,5,no
+h,tiger,5.0,6,no
+i,lion,6.2,3,yes
+j,dog,6.1,2,no
