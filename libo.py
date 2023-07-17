@@ -20,7 +20,7 @@ import pandas as pd
 # print(df)
 # print(df.describe())
 
-# import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 
 # np.random.seed(10)
 
@@ -101,23 +101,23 @@ import time
 # df1=pd.DataFrame(nm_arr,index=dts,columns=clms)
 # print(df1)
 
-datas={'animal':['cat','cat','dog','dog','tiger','tiger','dog','tiger','lion','dog'],
-      'age':[2.5,3,2,3.3,2,2,5.4,5,6.2,6.1],
-      'visits':[1,1,2,2,3,4,5,6,3,2],
-      'priority':['yes','yes','yes','yes','no','no','no','no','yes','no']}
+# datas={'animal':['cat','cat','dog','dog','tiger','tiger','dog','tiger','lion','dog'],
+#       'age':[2.5,3,2,3.3,2,2,5.4,5,6.2,6.1],
+#       'visits':[1,1,2,2,3,4,5,6,3,2],
+#       'priority':['yes','yes','yes','yes','no','no','no','no','yes','no']}
 
-labels=['a','b','c','d','e','f','g','h','i','j']
+# labels=['a','b','c','d','e','f','g','h','i','j']
 
-df2=pd.DataFrame(datas,index=labels)
+# df2=pd.DataFrame(datas,index=labels)
 #print(df2)
 #print(df2.describe())
 #print(df2.T)
 #print(df2.sort_values(by='age'))
 #print(df2[1:3])
 #print(df2[['age','visits']])
-df3=df2.copy()
+#df3=df2.copy()
 # print(df3.isnull())
-df3.loc['f','age']=9
+#df3.loc['f','age']=9
 #print(df3)
 #print(df3.mean())
 #print(df3['visits'].mean())
@@ -129,4 +129,71 @@ df3.loc['f','age']=9
 # print("\n\n")
 # print(df3)
 #df3.to_csv('animaldf3.csv')
-#df3.to_excel('animaldf3.xlsx')
+#df3.to_excel('animaldf3.xlsx',sheet_name="Sheet1")
+import matplotlib.pylab as plb
+#from matplotlib.pylab import *
+#from matplotlib import pyplot
+# print(pylab.version)
+
+x=np.linspace(0,10,25)
+y=x*x+2
+# print(x)
+# print(y)
+# print(np.array([x,y]).reshape(25,2))
+
+#plb.plot(x,y, 'r')
+
+import matplotlib.pyplot as plt
+# fg=plt.figure()
+# axs=fg.add_axes([0.5,0.1,0.8,0.8])
+# axs.plot(x,y, 'r')
+# fg, axs=plt.subplots(nrows=1, ncols=2)
+# for ax in axs:
+#     ax.plot(x,y, 'r')
+# plt.show()
+
+#graph inside of another graph
+# fig=plt.figure()
+# axs1=fig.add_axes([0.1,0.1,0.8,0.8])
+# axs2=fig.add_axes([0.2,0.5,0.4,0.3])
+# axs1.plot(x,y, 'r')
+# axs2.plot(y,x, 'g')
+# plt.show()
+
+#big canvas graph
+# fig=plt.figure(figsize=(16,9),dpi=100)
+# fig.add_subplot()
+# plt.plot(x,y,'r')
+# plt.show()
+
+# fig,axs=plt.subplots()
+# axs.set_title("tito")
+# axs.set_xlabel("X")
+# axs.set_ylabel("Y")
+# axs.plot(x,y, 'r')
+# plt.show()
+
+# fig,ax=plt.subplots()
+# ax.plot(x,x+1,color='blue',marker='o')
+# plt.show()
+
+# fig,ax=plt.subplots()
+# ax.plot(x,x+1,color='blue',lw=2,linestyle='--')
+# ax.plot(x,x+3,color='green',lw=1.5,linestyle='-.')
+# ax.plot(x,x+5,color='red',lw=3,linestyle='-')
+# plt.show()
+
+# fig, axes=plt.subplots(1,2, figsize=(10,5))
+# axes[0].plot(x,x**2,x,x**3,lw=2)
+# axes[0].grid(True)
+# plt.show()
+
+# fig, axes=plt.subplots(1,2, figsize=(10,5))
+# axes[0].plot(x,x**2,x,x**3,lw=2)
+# axes[0].grid(True)
+# axes[1].plot(x,x**2,x,x**3,lw=2)
+# axes[1].grid(True)
+# axes[1].set_ylim([0,60])
+# axes[1].set_xlim([2,5])
+# plt.show()
+
